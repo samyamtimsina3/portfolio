@@ -2,4 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;800&display=swap');
 *{
     font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* --header--*/
+#header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-top:15px;
+}
+#logo {
+    font-size: 2rem;
+}
+#navbar>ul {
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin-right: 200px;
+}
+#navbar>ul>li>a {
+    text-decoration: none;
 }
