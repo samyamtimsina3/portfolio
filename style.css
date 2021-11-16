@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    color: white;
+    
 }
 /* --first page*/
 #main_first{
@@ -12,6 +12,8 @@
     height: 750px;
     background-image: radial-gradient(circle, #122542, #0a213a, #051e31, #031928, #001520);
     overflow-x : hidden;
+    overflow-y: hidden;
+    color: white;
 }
 /* --header--*/
 #header {
@@ -86,4 +88,31 @@
 #intro_btn:hover {
     cursor: pointer;
     background-color: #0000e8;
+}
+/* --second--*/
+#main_second {
+    background-image: linear-gradient(to left bottom, #d4d4d4, #bcbcbc, #a5a5a5, #8f8f8f, #797979);
+    color: black;
+}
+#main_second>h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
+.random_images{
+    display: flex;
+    flex-direction: row;
+    
+}
+.random_images>img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+#random{
+   
+}
+.random_images>p {
+    font-size: 12px;
+    text-align: center;
 }
